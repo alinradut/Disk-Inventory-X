@@ -8,6 +8,9 @@
 
 #import "OffscreenGWorld.h"
 
+static const NSInteger pixelsLockedBit = 7;
+static const NSInteger pixelsLocked = 1L << pixelsLockedBit;
+
 //================ interface OffscreenGWorld(Private) ======================================================
 
 @interface OffscreenGWorld(Private)

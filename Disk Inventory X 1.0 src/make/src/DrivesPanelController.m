@@ -12,6 +12,8 @@
 #import "VolumeNameTransformer.h"
 #import "VolumeUsageTransformer.h"
 
+#define kNTVolumeMgrVolumeHasMountedNotification @"kNTVolumeMgrVolumeHasMountedNotification"
+
 //============ interface DrivesPanelController(Private) ==========================================================
 
 @interface DrivesPanelController(Private)
