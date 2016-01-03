@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = DIXFileInfoView; LANGUAGE = ObjC; SUPERCLASS = NTInfoView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = InfoPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_displayNameTextField" = NSTextField; 
+                "_iconImageView" = NSImageView; 
+                "_infoPanel" = NSWindow; 
+                "_infoView" = NTInfoView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NTInfoView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

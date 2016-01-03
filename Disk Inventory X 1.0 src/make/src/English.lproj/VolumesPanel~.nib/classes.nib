@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {openVolume = id; }; 
+            CLASS = DrivesPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_openVolumeButton" = NSButton; 
+                "_volumesController" = NSArrayController; 
+                "_volumesPanel" = NSWindow; 
+                "_volumesTableView" = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FileSizeFormatter; LANGUAGE = ObjC; SUPERCLASS = NSNumberFormatter; }, 
+        {
+            ACTIONS = {myAction = id; openVolume = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {openVolume = id; }; 
+            CLASS = MyDocumentController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_volumesController" = NSArrayController; "_volumesTableView" = NSTableView; }; 
+            SUPERCLASS = NSDocumentController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

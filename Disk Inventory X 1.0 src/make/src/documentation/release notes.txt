@@ -1,0 +1,56 @@
+release notes
+=============
+
+vdev
+----
+
+new features:
+- Finder context menu plugin with a "Open in Disk Inventory X" command for folders and volumes (must be installed manually in the preference window!)
+- a new selection list which can show all files of a specific kind or all all files (to show the selection list, use the new context menu in the kind statistic or select menu "Window->Selection List").
+- an option whether the assignment between colors and file kinds are shared between open windows or not (so every kind has in all windows the same color - like before - or the assignment is done for each window separately)
+- performance improvements when dealing with a large number of files
+- sortable columns in the kind statistic drawer (and in the new selection list, of course)
+- a warning is shown prior deleting a file or folder on a network volume (items on a network volume can only be deleted, not moved to trash)
+
+bug fixes:
+- DIX crashed when refreshing a file or files if DIX has zoomed into a folder
+- the "select parent" shortcut did not work if the file view had the focus: the shortcut is now changed to Apple-U (previously Command-P).
+
+
+
+1.0 beta (2004-06-12)
+---------------------
+- now runs only under Mac OS X 10.3+; 10.2 is no longer supported!
+
+new features:
+- the scanning process is now 3 times faster (thanks to Dave Payne from Apple)
+- show the free space and the space occupied by not shown files (on the selected volume) and like a file in the treemap
+- show physical (# of used clusters) or logical (size of content) file size
+- ignore creator code (so all those PDF files are shown as "PDF File" and not as "Acrobat PDF File" or "PDF File")
+- option to use a small font in the file list and the file kind statistic drawer
+- refresh (reload) all or an individual file or folder
+- preferences
+- toolbar
+
+The source code for the tree map is now a separate framework to be easily integrated into other applications.
+
+
+0.8 (2004-03-18)
+----------------
+bug fixes:
+- program hanged sometimes while scanning folder (reason: overwritten or deleted files)
+
+new features:
+- a "move to trash" command
+- folders can be opened by dragging them on the application icon
+- switch between vertical and horizontal splitting in the main window
+- afrikaans translation by Marius van Wyk
+- french translation by Daniel Girod
+- german translation by me;-)
+- small interface enhancements
+- no more uncontrolled pouring of messages to console.log
+
+
+0.7 (2004-03-07)
+----------------
+initial public release

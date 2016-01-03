@@ -1,0 +1,1212 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC290486D014006FF6A4 /* Disk Inventory X_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF750370BD2300C91783 /* Disk Inventory X_Prefix.pch */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		FC0DEA0D07625B230049E191 /* DIXFileInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0DEA0B07625B230049E191 /* DIXFileInfoView.h */; };
+		FC0DEA0E07625B230049E191 /* DIXFileInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0DEA0C07625B230049E191 /* DIXFileInfoView.m */; };
+		FC0DFD0207634AC60049E191 /* DonationPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC0DFD0007634AC60049E191 /* DonationPanel.nib */; };
+		FC15C814073F85EC0013F5B2 /* VolumeNameTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC15C812073F85EC0013F5B2 /* VolumeNameTransformer.h */; };
+		FC15C815073F85EC0013F5B2 /* VolumeNameTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC15C813073F85EC0013F5B2 /* VolumeNameTransformer.m */; };
+		FC1B8FB3060B28420092839A /* feature suggestions.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC1B8FB2060B28420092839A /* feature suggestions.txt */; };
+		FC1B8FBB060B28CB0092839A /* known bugs.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC1B8FBA060B28CB0092839A /* known bugs.txt */; };
+		FC26D09707F4326E00301D86 /* GenericArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26D09507F4326E00301D86 /* GenericArrayController.m */; };
+		FC26D09807F4326E00301D86 /* GenericArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC26D09607F4326E00301D86 /* GenericArrayController.h */; };
+		FC26D1F307F4559B00301D86 /* FileSizeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC26D1F107F4559B00301D86 /* FileSizeTransformer.h */; };
+		FC26D1F407F4559B00301D86 /* FileSizeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26D1F207F4559B00301D86 /* FileSizeTransformer.m */; };
+		FC26D54107F48B1300301D86 /* SelectionListTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC26D53F07F48B1300301D86 /* SelectionListTableController.h */; };
+		FC26D54207F48B1300301D86 /* SelectionListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26D54007F48B1300301D86 /* SelectionListTableController.m */; };
+		FC27C272080728D90073CDF9 /* NTFileDesc-Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FC27C270080728D90073CDF9 /* NTFileDesc-Utilities.h */; };
+		FC27C273080728D90073CDF9 /* NTFileDesc-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FC27C271080728D90073CDF9 /* NTFileDesc-Utilities.m */; };
+		FC2FB2C10744E0C500D2B466 /* VolumeUsageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2FB2BF0744E0C500D2B466 /* VolumeUsageTransformer.h */; };
+		FC2FB2C20744E0C500D2B466 /* VolumeUsageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2FB2C00744E0C500D2B466 /* VolumeUsageTransformer.m */; };
+		FC3112D90805853200075F08 /* FinderCMPreferencesPage.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC3112D70805853200075F08 /* FinderCMPreferencesPage.nib */; };
+		FC3112E20805857B00075F08 /* FinderCMPrefPage.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3112E00805857B00075F08 /* FinderCMPrefPage.h */; };
+		FC3112E30805857B00075F08 /* FinderCMPrefPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3112E10805857B00075F08 /* FinderCMPrefPage.m */; };
+		FC37D62D075904E200209C78 /* TreeMapPreferencesPage.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC37D62B075904E200209C78 /* TreeMapPreferencesPage.nib */; };
+		FC37D63A075905CA00209C78 /* TreeMapPrefPage.h in Headers */ = {isa = PBXBuildFile; fileRef = FC37D638075905CA00209C78 /* TreeMapPrefPage.h */; };
+		FC37D63B075905CA00209C78 /* TreeMapPrefPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37D639075905CA00209C78 /* TreeMapPrefPage.m */; };
+		FC37D66B0759084600209C78 /* TreeMapPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FC37D66A0759084600209C78 /* TreeMapPreferences.tiff */; };
+		FC37D69F0759096600209C78 /* Preferences.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC37D69E0759096600209C78 /* Preferences.strings */; };
+		FC37D88F075A561700209C78 /* PrefsPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC37D88D075A561700209C78 /* PrefsPanelController.h */; };
+		FC37D890075A561700209C78 /* PrefsPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37D88E075A561700209C78 /* PrefsPanelController.m */; };
+		FC37DADB075B407B00209C78 /* PrefsPageBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FC37DAD9075B407B00209C78 /* PrefsPageBase.h */; };
+		FC37DADC075B407B00209C78 /* PrefsPageBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC37DADA075B407B00209C78 /* PrefsPageBase.m */; };
+		FC3FFAD9071074ED004BEC56 /* NTFileDesc-AccessExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3FFAD7071074ED004BEC56 /* NTFileDesc-AccessExtensions.h */; };
+		FC3FFADA071074ED004BEC56 /* NTFileDesc-AccessExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3FFAD8071074ED004BEC56 /* NTFileDesc-AccessExtensions.m */; };
+		FC528433075FD35200374589 /* CocoaTechFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC570184070602110032DFE9 /* CocoaTechFoundation.framework */; };
+		FC528AC7076079B500374589 /* LoadingPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC528AC5076079B500374589 /* LoadingPanelController.h */; };
+		FC528AC8076079B500374589 /* LoadingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC528AC6076079B500374589 /* LoadingPanelController.m */; };
+		FC528C0F0760958C00374589 /* TreeMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC528C0E0760958C00374589 /* TreeMapView.framework */; };
+		FC528C240760962100374589 /* MoveToTrash.png in Resources */ = {isa = PBXBuildFile; fileRef = FC528C230760962100374589 /* MoveToTrash.png */; };
+		FC528F5007609F0300374589 /* TreeMapView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC528C0E0760958C00374589 /* TreeMapView.framework */; };
+		FC55B556073C281600B59D00 /* VolumesPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC55B554073C281600B59D00 /* VolumesPanel.nib */; };
+		FC5700F2070601AE0032DFE9 /* OmniAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */; };
+		FC5700F3070601AE0032DFE9 /* OmniBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5700F0070601AE0032DFE9 /* OmniBase.framework */; };
+		FC5700F4070601AE0032DFE9 /* OmniFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */; };
+		FC570187070602110032DFE9 /* CocoaTechBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570183070602110032DFE9 /* CocoaTechBase.framework */; };
+		FC570188070602110032DFE9 /* CocoaTechFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570184070602110032DFE9 /* CocoaTechFoundation.framework */; };
+		FC570189070602110032DFE9 /* CocoaTechID3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570185070602110032DFE9 /* CocoaTechID3.framework */; };
+		FC57018A070602110032DFE9 /* CocoaTechStrings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC570186070602110032DFE9 /* CocoaTechStrings.framework */; };
+		FC5703A80706023D0032DFE9 /* CocoaTechBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC570183070602110032DFE9 /* CocoaTechBase.framework */; };
+		FC5703AA0706023D0032DFE9 /* CocoaTechID3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC570185070602110032DFE9 /* CocoaTechID3.framework */; };
+		FC5703AB0706023D0032DFE9 /* CocoaTechStrings.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC570186070602110032DFE9 /* CocoaTechStrings.framework */; };
+		FC5703AC0706023D0032DFE9 /* OmniAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */; };
+		FC5703AD0706023D0032DFE9 /* OmniBase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC5700F0070601AE0032DFE9 /* OmniBase.framework */; };
+		FC5703AE0706023D0032DFE9 /* OmniFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */; };
+		FC657547075F4D2E0056F438 /* Preferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FC657546075F4D2E0056F438 /* Preferences.tiff */; };
+		FC657586075F58C90056F438 /* RefreshSelection.png in Resources */ = {isa = PBXBuildFile; fileRef = FC657584075F58C90056F438 /* RefreshSelection.png */; };
+		FC657587075F58C90056F438 /* RefreshAll.png in Resources */ = {isa = PBXBuildFile; fileRef = FC657585075F58C90056F438 /* RefreshAll.png */; };
+		FC6575AF075F5F240056F438 /* RevealInFinder.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6575AE075F5F240056F438 /* RevealInFinder.png */; };
+		FC6575C0075F7A210056F438 /* ShowPackageContentsClosed.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6575BE075F7A210056F438 /* ShowPackageContentsClosed.png */; };
+		FC6575C1075F7A210056F438 /* ShowPackageContentsOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6575BF075F7A210056F438 /* ShowPackageContentsOpen.png */; };
+		FC6ADCCA07F99934006FE39B /* NSOutlineView-ContextMenuExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6ADCC807F99934006FE39B /* NSOutlineView-ContextMenuExtension.h */; };
+		FC6ADCCB07F99934006FE39B /* NSOutlineView-ContextMenuExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADCC907F99934006FE39B /* NSOutlineView-ContextMenuExtension.m */; };
+		FC6C55110577E62900DD1CE6 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC6C55100577E62900DD1CE6 /* AppIcon.icns */; };
+		FC6D4B230804040600E21F6D /* DIXFinderCMInstaller.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6D4B210804040600E21F6D /* DIXFinderCMInstaller.h */; };
+		FC6D4B240804040600E21F6D /* DIXFinderCMInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6D4B220804040600E21F6D /* DIXFinderCMInstaller.m */; };
+		FC6D4C0D080416BC00E21F6D /* Disk Inventory X Finder CM.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC6D4C00080414C200E21F6D /* Disk Inventory X Finder CM.plugin */; };
+		FC6DE9FF07FBE44A00581F63 /* FileKindsPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6DE9FD07FBE44A00581F63 /* FileKindsPopupController.h */; };
+		FC6DEA0007FBE44A00581F63 /* FileKindsPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DE9FE07FBE44A00581F63 /* FileKindsPopupController.m */; };
+		FC6DEA7007FBED8C00581F63 /* SelectionListController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6DEA6E07FBED8C00581F63 /* SelectionListController.h */; };
+		FC6DEA7107FBED8C00581F63 /* SelectionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEA6F07FBED8C00581F63 /* SelectionListController.m */; };
+		FC6E8D820758EE3F00500E6F /* GeneralPrefPage.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6E8D800758EE3F00500E6F /* GeneralPrefPage.h */; };
+		FC6E8D830758EE3F00500E6F /* GeneralPrefPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6E8D810758EE3F00500E6F /* GeneralPrefPage.m */; };
+		FC6E8DA10758EF0300500E6F /* GeneralPreferencesPage.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC6E8D9F0758EF0300500E6F /* GeneralPreferencesPage.nib */; };
+		FC6E8DCF0758F1EA00500E6F /* GeneralPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FC6E8DCE0758F1EA00500E6F /* GeneralPreferences.tiff */; };
+		FC755279054C3BFF00BBC68D /* TreeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC75525D054C3BFF00BBC68D /* TreeMapViewController.m */; };
+		FC75527A054C3BFF00BBC68D /* TreeMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC75525E054C3BFF00BBC68D /* TreeMapViewController.h */; };
+		FC755281054C3BFF00BBC68D /* OffscreenGWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755265054C3BFF00BBC68D /* OffscreenGWorld.m */; };
+		FC755282054C3BFF00BBC68D /* OffscreenGWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = FC755266054C3BFF00BBC68D /* OffscreenGWorld.h */; };
+		FC755285054C3BFF00BBC68D /* MyDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755269054C3BFF00BBC68D /* MyDocumentController.m */; };
+		FC755286054C3BFF00BBC68D /* MyDocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC75526A054C3BFF00BBC68D /* MyDocumentController.h */; };
+		FC755287054C3BFF00BBC68D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC75526B054C3BFF00BBC68D /* MainWindowController.m */; };
+		FC755288054C3BFF00BBC68D /* MainWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC75526C054C3BFF00BBC68D /* MainWindowController.h */; };
+		FC755289054C3BFF00BBC68D /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC75526D054C3BFF00BBC68D /* ImageAndTextCell.m */; };
+		FC75528A054C3BFF00BBC68D /* ImageAndTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FC75526E054C3BFF00BBC68D /* ImageAndTextCell.h */; };
+		FC75528B054C3BFF00BBC68D /* FSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC75526F054C3BFF00BBC68D /* FSItem.m */; };
+		FC75528C054C3BFF00BBC68D /* FSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FC755270054C3BFF00BBC68D /* FSItem.h */; };
+		FC75528D054C3BFF00BBC68D /* FileTypeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755271054C3BFF00BBC68D /* FileTypeColors.m */; };
+		FC75528E054C3BFF00BBC68D /* FileTypeColors.h in Headers */ = {isa = PBXBuildFile; fileRef = FC755272054C3BFF00BBC68D /* FileTypeColors.h */; };
+		FC75528F054C3BFF00BBC68D /* FileSystemDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755273054C3BFF00BBC68D /* FileSystemDoc.m */; };
+		FC755290054C3BFF00BBC68D /* FileSystemDoc.h in Headers */ = {isa = PBXBuildFile; fileRef = FC755274054C3BFF00BBC68D /* FileSystemDoc.h */; };
+		FC755291054C3BFF00BBC68D /* FilesOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755275054C3BFF00BBC68D /* FilesOutlineViewController.m */; };
+		FC755292054C3BFF00BBC68D /* FilesOutlineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC755276054C3BFF00BBC68D /* FilesOutlineViewController.h */; };
+		FC755293054C3BFF00BBC68D /* FileKindsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC755277054C3BFF00BBC68D /* FileKindsTableController.m */; };
+		FC755294054C3BFF00BBC68D /* FileKindsTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC755278054C3BFF00BBC68D /* FileKindsTableController.h */; };
+		FC75529D054C3C2900BBC68D /* TreeMap.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC755297054C3C2900BBC68D /* TreeMap.nib */; };
+		FC75529E054C3C2900BBC68D /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC755299054C3C2900BBC68D /* MainMenu.nib */; };
+		FC75529F054C3C2900BBC68D /* LoadingPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC75529B054C3C2900BBC68D /* LoadingPanel.nib */; };
+		FC79EEAD07FC3822000BEBFA /* NSTableViewWithContextMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = FC79EEAB07FC3822000BEBFA /* NSTableViewWithContextMenu.h */; };
+		FC79EEAE07FC3822000BEBFA /* NSTableViewWithContextMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79EEAC07FC3822000BEBFA /* NSTableViewWithContextMenu.m */; };
+		FC79F14A07FD45A4000BEBFA /* FSItemIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = FC79F14807FD45A4000BEBFA /* FSItemIndex.h */; };
+		FC79F14B07FD45A4000BEBFA /* FSItemIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79F14907FD45A4000BEBFA /* FSItemIndex.m */; };
+		FC84CA670748EF9300E252C8 /* DrivesPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84CA650748EF9300E252C8 /* DrivesPanelController.h */; };
+		FC84CA680748EF9300E252C8 /* DrivesPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84CA660748EF9300E252C8 /* DrivesPanelController.m */; };
+		FC84D049074A3E2200E252C8 /* InfoPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84D047074A3E2200E252C8 /* InfoPanelController.h */; };
+		FC84D04A074A3E2200E252C8 /* InfoPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84D048074A3E2200E252C8 /* InfoPanelController.m */; };
+		FC84D061074A3F4900E252C8 /* InfoPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = FC84D05F074A3F4900E252C8 /* InfoPanel.nib */; };
+		FC84DC9A074D4B0800E252C8 /* NTDefaultDirectory-Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84DC98074D4B0800E252C8 /* NTDefaultDirectory-Utilities.h */; };
+		FC84DC9B074D4B0800E252C8 /* NTDefaultDirectory-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84DC99074D4B0800E252C8 /* NTDefaultDirectory-Utilities.m */; };
+		FC84DD66074D61EF00E252C8 /* FSItem-Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84DD64074D61EF00E252C8 /* FSItem-Utilities.h */; };
+		FC84DD67074D61EF00E252C8 /* FSItem-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84DD65074D61EF00E252C8 /* FSItem-Utilities.m */; };
+		FC9E03B706087FB800F892E5 /* release notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC9E03B606087FB800F892E5 /* release notes.txt */; };
+		FC9F6B530754947B00951B41 /* Preferences.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9F6B520754947B00951B41 /* Preferences.h */; };
+		FC9F6C530754B21800951B41 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9F6C520754B21800951B41 /* Preferences.m */; };
+		FCA4C2B5075B67940064125F /* NTFSRefObject-AccessExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA4C2B3075B67940064125F /* NTFSRefObject-AccessExtensions.h */; };
+		FCA4C2B6075B67940064125F /* NTFSRefObject-AccessExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA4C2B4075B67940064125F /* NTFSRefObject-AccessExtensions.m */; };
+		FCA4CFDD075DC6E10064125F /* MainWindowToolbar.toolbar in Resources */ = {isa = PBXBuildFile; fileRef = FCA4CFDC075DC6E10064125F /* MainWindowToolbar.toolbar */; };
+		FCA4D13B075DE2490064125F /* ZoomOut.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FCA4D139075DE2490064125F /* ZoomOut.tiff */; };
+		FCA4D13C075DE24A0064125F /* ZoomIn.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FCA4D13A075DE2490064125F /* ZoomIn.tiff */; };
+		FCA4D149075DE2780064125F /* KindsStatisticDrawer.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FCA4D148075DE2780064125F /* KindsStatisticDrawer.tiff */; };
+		FCA4D3FF075E15630064125F /* OAToolbarWindowControllerEx.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA4D3FD075E15630064125F /* OAToolbarWindowControllerEx.h */; };
+		FCA4D400075E15630064125F /* OAToolbarWindowControllerEx.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA4D3FE075E15630064125F /* OAToolbarWindowControllerEx.m */; };
+		FCA4D604075E6D7E0064125F /* Inspector.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FCA4D603075E6D7E0064125F /* Inspector.tiff */; };
+		FCAC0D330607189700B74E7D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAC0D310607189700B74E7D /* Localizable.strings */; };
+		FCB62FEF070CAE5F00BA5FD4 /* Timing.c in Sources */ = {isa = PBXBuildFile; fileRef = FCB62FED070CAE5F00BA5FD4 /* Timing.c */; };
+		FCB62FF0070CAE5F00BA5FD4 /* Timing.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB62FEE070CAE5F00BA5FD4 /* Timing.h */; };
+		FCC564780615EA5E00C5884D /* FileSizeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC564760615EA5E00C5884D /* FileSizeFormatter.h */; };
+		FCC564790615EA5E00C5884D /* FileSizeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC564770615EA5E00C5884D /* FileSizeFormatter.m */; };
+		FCE5D6580806A2CC00BDB57A /* FinderCMPreferences.tiff in Resources */ = {isa = PBXBuildFile; fileRef = FCE5D6570806A2CC00BDB57A /* FinderCMPreferences.tiff */; };
+		FCEC79A90768556E008895C2 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = FCEC799F0768556E008895C2 /* Help */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504D0FFE6A4CB11CA0CBA /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				OPTIMIZATION_CFLAGS = "-O0";
+				SYMROOT = ./../build/debug;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "NS_BLOCK_ASSERTIONS=1";
+				SYMROOT = ./../build/release;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2788E607D7573900EDCC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2788E007D7571C00EDCC97 /* TreeMapView.xcode */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = TreeMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC57018B070602290032DFE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC528F5007609F0300374589 /* TreeMapView.framework in CopyFiles */,
+				FC5703A80706023D0032DFE9 /* CocoaTechBase.framework in CopyFiles */,
+				FC528433075FD35200374589 /* CocoaTechFoundation.framework in CopyFiles */,
+				FC5703AA0706023D0032DFE9 /* CocoaTechID3.framework in CopyFiles */,
+				FC5703AB0706023D0032DFE9 /* CocoaTechStrings.framework in CopyFiles */,
+				FC5703AC0706023D0032DFE9 /* OmniAppKit.framework in CopyFiles */,
+				FC5703AD0706023D0032DFE9 /* OmniBase.framework in CopyFiles */,
+				FC5703AE0706023D0032DFE9 /* OmniFoundation.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6D4BA2080413BE00E21F6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				FC6D4C0D080416BC00E21F6D /* Disk Inventory X Finder CM.plugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* Disk Inventory X_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Disk Inventory X_Prefix.pch"; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FC04DC8207D48B8A00740A58 /* Disk Inventory X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disk Inventory X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0DEA0B07625B230049E191 /* DIXFileInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIXFileInfoView.h; sourceTree = "<group>"; };
+		FC0DEA0C07625B230049E191 /* DIXFileInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIXFileInfoView.m; sourceTree = "<group>"; };
+		FC0DFD0107634AC60049E191 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DonationPanel.nib; sourceTree = "<group>"; };
+		FC15C812073F85EC0013F5B2 /* VolumeNameTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeNameTransformer.h; sourceTree = "<group>"; };
+		FC15C813073F85EC0013F5B2 /* VolumeNameTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeNameTransformer.m; sourceTree = "<group>"; };
+		FC1B8FB2060B28420092839A /* feature suggestions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "feature suggestions.txt"; path = "documentation/feature suggestions.txt"; sourceTree = "<group>"; };
+		FC1B8FBA060B28CB0092839A /* known bugs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "known bugs.txt"; path = "documentation/known bugs.txt"; sourceTree = "<group>"; };
+		FC26D09507F4326E00301D86 /* GenericArrayController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GenericArrayController.m; sourceTree = "<group>"; };
+		FC26D09607F4326E00301D86 /* GenericArrayController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GenericArrayController.h; sourceTree = "<group>"; };
+		FC26D1F107F4559B00301D86 /* FileSizeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSizeTransformer.h; sourceTree = "<group>"; };
+		FC26D1F207F4559B00301D86 /* FileSizeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSizeTransformer.m; sourceTree = "<group>"; };
+		FC26D53F07F48B1300301D86 /* SelectionListTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionListTableController.h; sourceTree = "<group>"; };
+		FC26D54007F48B1300301D86 /* SelectionListTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionListTableController.m; sourceTree = "<group>"; };
+		FC2788E007D7571C00EDCC97 /* TreeMapView.xcode */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TreeMapView.xcode; path = ../../../../TreeMapView/vdev/make/src/TreeMapView.xcode; sourceTree = SOURCE_ROOT; };
+		FC27C270080728D90073CDF9 /* NTFileDesc-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NTFileDesc-Utilities.h"; sourceTree = "<group>"; };
+		FC27C271080728D90073CDF9 /* NTFileDesc-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NTFileDesc-Utilities.m"; sourceTree = "<group>"; };
+		FC2FB2BF0744E0C500D2B466 /* VolumeUsageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = VolumeUsageTransformer.h; sourceTree = "<group>"; };
+		FC2FB2C00744E0C500D2B466 /* VolumeUsageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = VolumeUsageTransformer.m; sourceTree = "<group>"; };
+		FC3112D80805853200075F08 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/FinderCMPreferencesPage.nib; sourceTree = "<group>"; };
+		FC3112E00805857B00075F08 /* FinderCMPrefPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderCMPrefPage.h; sourceTree = "<group>"; };
+		FC3112E10805857B00075F08 /* FinderCMPrefPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderCMPrefPage.m; sourceTree = "<group>"; };
+		FC37D62C075904E200209C78 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TreeMapPreferencesPage.nib; sourceTree = "<group>"; };
+		FC37D638075905CA00209C78 /* TreeMapPrefPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeMapPrefPage.h; sourceTree = "<group>"; };
+		FC37D639075905CA00209C78 /* TreeMapPrefPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeMapPrefPage.m; sourceTree = "<group>"; };
+		FC37D66A0759084600209C78 /* TreeMapPreferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TreeMapPreferences.tiff; sourceTree = "<group>"; };
+		FC37D69C0759095300209C78 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Preferences.strings; sourceTree = "<group>"; };
+		FC37D88D075A561700209C78 /* PrefsPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsPanelController.h; sourceTree = "<group>"; };
+		FC37D88E075A561700209C78 /* PrefsPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsPanelController.m; sourceTree = "<group>"; };
+		FC37DAD9075B407B00209C78 /* PrefsPageBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsPageBase.h; sourceTree = "<group>"; };
+		FC37DADA075B407B00209C78 /* PrefsPageBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsPageBase.m; sourceTree = "<group>"; };
+		FC3FFAD7071074ED004BEC56 /* NTFileDesc-AccessExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NTFileDesc-AccessExtensions.h"; sourceTree = "<group>"; };
+		FC3FFAD8071074ED004BEC56 /* NTFileDesc-AccessExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NTFileDesc-AccessExtensions.m"; sourceTree = "<group>"; };
+		FC528AC5076079B500374589 /* LoadingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingPanelController.h; sourceTree = "<group>"; };
+		FC528AC6076079B500374589 /* LoadingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingPanelController.m; sourceTree = "<group>"; };
+		FC528C0E0760958C00374589 /* TreeMapView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TreeMapView.framework; path = ../../../../TreeMapView/vdev/make/build/Release/TreeMapView.framework; sourceTree = SOURCE_ROOT; };
+		FC528C230760962100374589 /* MoveToTrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoveToTrash.png; sourceTree = SOURCE_ROOT; };
+		FC55B555073C281600B59D00 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VolumesPanel.nib; sourceTree = "<group>"; };
+		FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniAppKit.framework; path = "../../../../OmniFrameworks 2004-07-16/build/release/OmniAppKit.framework"; sourceTree = SOURCE_ROOT; };
+		FC5700F0070601AE0032DFE9 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = "../../../../OmniFrameworks 2004-07-16/build/release/OmniBase.framework"; sourceTree = SOURCE_ROOT; };
+		FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = "../../../../OmniFrameworks 2004-07-16/build/release/OmniFoundation.framework"; sourceTree = SOURCE_ROOT; };
+		FC570183070602110032DFE9 /* CocoaTechBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechBase.framework; path = ../../../../CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechBase.framework; sourceTree = SOURCE_ROOT; };
+		FC570184070602110032DFE9 /* CocoaTechFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechFoundation.framework; path = /Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechFoundation.framework; sourceTree = "<absolute>"; };
+		FC570185070602110032DFE9 /* CocoaTechID3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechID3.framework; path = ../../../../CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechID3.framework; sourceTree = SOURCE_ROOT; };
+		FC570186070602110032DFE9 /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = ../../../../CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechStrings.framework; sourceTree = SOURCE_ROOT; };
+		FC657546075F4D2E0056F438 /* Preferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Preferences.tiff; sourceTree = "<group>"; };
+		FC657584075F58C90056F438 /* RefreshSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshSelection.png; sourceTree = "<group>"; };
+		FC657585075F58C90056F438 /* RefreshAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshAll.png; sourceTree = "<group>"; };
+		FC6575AE075F5F240056F438 /* RevealInFinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RevealInFinder.png; sourceTree = "<group>"; };
+		FC6575BE075F7A210056F438 /* ShowPackageContentsClosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShowPackageContentsClosed.png; sourceTree = "<group>"; };
+		FC6575BF075F7A210056F438 /* ShowPackageContentsOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShowPackageContentsOpen.png; sourceTree = "<group>"; };
+		FC6ADCC807F99934006FE39B /* NSOutlineView-ContextMenuExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOutlineView-ContextMenuExtension.h"; sourceTree = "<group>"; };
+		FC6ADCC907F99934006FE39B /* NSOutlineView-ContextMenuExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOutlineView-ContextMenuExtension.m"; sourceTree = "<group>"; };
+		FC6C55100577E62900DD1CE6 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		FC6D4B210804040600E21F6D /* DIXFinderCMInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIXFinderCMInstaller.h; sourceTree = "<group>"; };
+		FC6D4B220804040600E21F6D /* DIXFinderCMInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIXFinderCMInstaller.m; sourceTree = "<group>"; };
+		FC6D4C00080414C200E21F6D /* Disk Inventory X Finder CM.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; name = "Disk Inventory X Finder CM.plugin"; path = "../../../../Disk Inventory X Finder CM/1.0/make/build/release/Disk Inventory X Finder CM.plugin"; sourceTree = SOURCE_ROOT; };
+		FC6DE9FD07FBE44A00581F63 /* FileKindsPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileKindsPopupController.h; sourceTree = "<group>"; };
+		FC6DE9FE07FBE44A00581F63 /* FileKindsPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileKindsPopupController.m; sourceTree = "<group>"; };
+		FC6DEA6E07FBED8C00581F63 /* SelectionListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionListController.h; sourceTree = "<group>"; };
+		FC6DEA6F07FBED8C00581F63 /* SelectionListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionListController.m; sourceTree = "<group>"; };
+		FC6E8D800758EE3F00500E6F /* GeneralPrefPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPrefPage.h; sourceTree = "<group>"; };
+		FC6E8D810758EE3F00500E6F /* GeneralPrefPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPrefPage.m; sourceTree = "<group>"; };
+		FC6E8DA00758EF0300500E6F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/GeneralPreferencesPage.nib; sourceTree = "<group>"; };
+		FC6E8DCE0758F1EA00500E6F /* GeneralPreferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GeneralPreferences.tiff; sourceTree = "<group>"; };
+		FC75525D054C3BFF00BBC68D /* TreeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TreeMapViewController.m; sourceTree = "<group>"; };
+		FC75525E054C3BFF00BBC68D /* TreeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TreeMapViewController.h; sourceTree = "<group>"; };
+		FC755265054C3BFF00BBC68D /* OffscreenGWorld.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OffscreenGWorld.m; sourceTree = "<group>"; };
+		FC755266054C3BFF00BBC68D /* OffscreenGWorld.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OffscreenGWorld.h; sourceTree = "<group>"; };
+		FC755269054C3BFF00BBC68D /* MyDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyDocumentController.m; sourceTree = "<group>"; };
+		FC75526A054C3BFF00BBC68D /* MyDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyDocumentController.h; sourceTree = "<group>"; };
+		FC75526B054C3BFF00BBC68D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		FC75526C054C3BFF00BBC68D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		FC75526D054C3BFF00BBC68D /* ImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageAndTextCell.m; sourceTree = "<group>"; };
+		FC75526E054C3BFF00BBC68D /* ImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ImageAndTextCell.h; sourceTree = "<group>"; };
+		FC75526F054C3BFF00BBC68D /* FSItem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSItem.m; sourceTree = "<group>"; };
+		FC755270054C3BFF00BBC68D /* FSItem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSItem.h; sourceTree = "<group>"; };
+		FC755271054C3BFF00BBC68D /* FileTypeColors.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FileTypeColors.m; sourceTree = "<group>"; };
+		FC755272054C3BFF00BBC68D /* FileTypeColors.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FileTypeColors.h; sourceTree = "<group>"; };
+		FC755273054C3BFF00BBC68D /* FileSystemDoc.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FileSystemDoc.m; sourceTree = "<group>"; };
+		FC755274054C3BFF00BBC68D /* FileSystemDoc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FileSystemDoc.h; sourceTree = "<group>"; };
+		FC755275054C3BFF00BBC68D /* FilesOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FilesOutlineViewController.m; sourceTree = "<group>"; };
+		FC755276054C3BFF00BBC68D /* FilesOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FilesOutlineViewController.h; sourceTree = "<group>"; };
+		FC755277054C3BFF00BBC68D /* FileKindsTableController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FileKindsTableController.m; sourceTree = "<group>"; };
+		FC755278054C3BFF00BBC68D /* FileKindsTableController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FileKindsTableController.h; sourceTree = "<group>"; };
+		FC755298054C3C2900BBC68D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TreeMap.nib; sourceTree = "<group>"; };
+		FC75529A054C3C2900BBC68D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		FC75529C054C3C2900BBC68D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LoadingPanel.nib; sourceTree = "<group>"; };
+		FC79EEAB07FC3822000BEBFA /* NSTableViewWithContextMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTableViewWithContextMenu.h; sourceTree = "<group>"; };
+		FC79EEAC07FC3822000BEBFA /* NSTableViewWithContextMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTableViewWithContextMenu.m; sourceTree = "<group>"; };
+		FC79F14807FD45A4000BEBFA /* FSItemIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSItemIndex.h; sourceTree = "<group>"; };
+		FC79F14907FD45A4000BEBFA /* FSItemIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSItemIndex.m; sourceTree = "<group>"; };
+		FC84CA650748EF9300E252C8 /* DrivesPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrivesPanelController.h; sourceTree = "<group>"; };
+		FC84CA660748EF9300E252C8 /* DrivesPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrivesPanelController.m; sourceTree = "<group>"; };
+		FC84D047074A3E2200E252C8 /* InfoPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoPanelController.h; sourceTree = "<group>"; };
+		FC84D048074A3E2200E252C8 /* InfoPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoPanelController.m; sourceTree = "<group>"; };
+		FC84D060074A3F4900E252C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/InfoPanel.nib; sourceTree = "<group>"; };
+		FC84DC98074D4B0800E252C8 /* NTDefaultDirectory-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NTDefaultDirectory-Utilities.h"; sourceTree = "<group>"; };
+		FC84DC99074D4B0800E252C8 /* NTDefaultDirectory-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NTDefaultDirectory-Utilities.m"; sourceTree = "<group>"; };
+		FC84DD64074D61EF00E252C8 /* FSItem-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSItem-Utilities.h"; sourceTree = "<group>"; };
+		FC84DD65074D61EF00E252C8 /* FSItem-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSItem-Utilities.m"; sourceTree = "<group>"; };
+		FC9E03B606087FB800F892E5 /* release notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "release notes.txt"; path = "documentation/release notes.txt"; sourceTree = "<group>"; };
+		FC9F6B520754947B00951B41 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		FC9F6C520754B21800951B41 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		FCA4C2B3075B67940064125F /* NTFSRefObject-AccessExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NTFSRefObject-AccessExtensions.h"; sourceTree = "<group>"; };
+		FCA4C2B4075B67940064125F /* NTFSRefObject-AccessExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NTFSRefObject-AccessExtensions.m"; sourceTree = "<group>"; };
+		FCA4CFDC075DC6E10064125F /* MainWindowToolbar.toolbar */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = MainWindowToolbar.toolbar; sourceTree = "<group>"; };
+		FCA4D139075DE2490064125F /* ZoomOut.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ZoomOut.tiff; sourceTree = "<group>"; };
+		FCA4D13A075DE2490064125F /* ZoomIn.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ZoomIn.tiff; sourceTree = "<group>"; };
+		FCA4D148075DE2780064125F /* KindsStatisticDrawer.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KindsStatisticDrawer.tiff; sourceTree = "<group>"; };
+		FCA4D3FD075E15630064125F /* OAToolbarWindowControllerEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToolbarWindowControllerEx.h; sourceTree = "<group>"; };
+		FCA4D3FE075E15630064125F /* OAToolbarWindowControllerEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToolbarWindowControllerEx.m; sourceTree = "<group>"; };
+		FCA4D603075E6D7E0064125F /* Inspector.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Inspector.tiff; sourceTree = "<group>"; };
+		FCAC0D320607189700B74E7D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FCB62FED070CAE5F00BA5FD4 /* Timing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Timing.c; sourceTree = "<group>"; };
+		FCB62FEE070CAE5F00BA5FD4 /* Timing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Timing.h; sourceTree = "<group>"; };
+		FCC564760615EA5E00C5884D /* FileSizeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSizeFormatter.h; sourceTree = "<group>"; };
+		FCC564770615EA5E00C5884D /* FileSizeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSizeFormatter.m; sourceTree = "<group>"; };
+		FCE5D6570806A2CC00BDB57A /* FinderCMPreferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = FinderCMPreferences.tiff; sourceTree = "<group>"; };
+		FCEC79A00768556E008895C2 /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = English.lproj/Help; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				FC5700F2070601AE0032DFE9 /* OmniAppKit.framework in Frameworks */,
+				FC5700F3070601AE0032DFE9 /* OmniBase.framework in Frameworks */,
+				FC5700F4070601AE0032DFE9 /* OmniFoundation.framework in Frameworks */,
+				FC570187070602110032DFE9 /* CocoaTechBase.framework in Frameworks */,
+				FC570188070602110032DFE9 /* CocoaTechFoundation.framework in Frameworks */,
+				FC570189070602110032DFE9 /* CocoaTechID3.framework in Frameworks */,
+				FC57018A070602110032DFE9 /* CocoaTechStrings.framework in Frameworks */,
+				FC528C0F0760958C00374589 /* TreeMapView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC04DC8207D48B8A00740A58 /* Disk Inventory X.app */,
+				FC2788E007D7571C00EDCC97 /* TreeMapView.xcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Disk Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				FC6ADCA907F99819006FE39B /* AppKit Extension */,
+				FCA4D3FC075E152D0064125F /* OmniAppKitExtensions */,
+				FC69475107511D31000B2832 /* CocoaTechExtensions */,
+				FC9F6B6C0754948000951B41 /* Preferences */,
+				FCBEF4D7054C3F4C007ABD71 /* Helper Classes */,
+				FC84D044074A3E0700E252C8 /* InfoPanel */,
+				FC26D53C07F48AC600301D86 /* SelectionList */,
+				FC1A6382073AB5F3007ED7C0 /* DrivesPanel */,
+				FCBEF4D4054C3F30007ABD71 /* TreeMapView Classes */,
+				FCBEF4D1054C3F14007ABD71 /* FileKindsTableView Classes */,
+				FCBEF4CA054C3EC5007ABD71 /* FilesOutlineView Classes */,
+				2A37F4ABFDCFA73011CA2CEA /* Main Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				FC68DD6E06073C6800A1B009 /* Documentation */,
+				FC6D4C00080414C200E21F6D /* Disk Inventory X Finder CM.plugin */,
+			);
+			name = "Disk Inventory";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Main Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC6D4B210804040600E21F6D /* DIXFinderCMInstaller.h */,
+				FC6D4B220804040600E21F6D /* DIXFinderCMInstaller.m */,
+				FC79F14807FD45A4000BEBFA /* FSItemIndex.h */,
+				FC79F14907FD45A4000BEBFA /* FSItemIndex.m */,
+				FC528AC5076079B500374589 /* LoadingPanelController.h */,
+				FC528AC6076079B500374589 /* LoadingPanelController.m */,
+				FC84DD64074D61EF00E252C8 /* FSItem-Utilities.h */,
+				FC84DD65074D61EF00E252C8 /* FSItem-Utilities.m */,
+				FC755269054C3BFF00BBC68D /* MyDocumentController.m */,
+				FC75526A054C3BFF00BBC68D /* MyDocumentController.h */,
+				FC75526B054C3BFF00BBC68D /* MainWindowController.m */,
+				FC75526C054C3BFF00BBC68D /* MainWindowController.h */,
+				FC755270054C3BFF00BBC68D /* FSItem.h */,
+				FC75526F054C3BFF00BBC68D /* FSItem.m */,
+				FC755271054C3BFF00BBC68D /* FileTypeColors.m */,
+				FC755272054C3BFF00BBC68D /* FileTypeColors.h */,
+				FC755273054C3BFF00BBC68D /* FileSystemDoc.m */,
+				FC755274054C3BFF00BBC68D /* FileSystemDoc.h */,
+			);
+			name = "Main Classes";
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* Disk Inventory X_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC657550075F4D450056F438 /* Toolbar */,
+				FC6E8D840758EE4600500E6F /* Preferences */,
+				FC84D05F074A3F4900E252C8 /* InfoPanel.nib */,
+				FC55B554073C281600B59D00 /* VolumesPanel.nib */,
+				FC755297054C3C2900BBC68D /* TreeMap.nib */,
+				FC755299054C3C2900BBC68D /* MainMenu.nib */,
+				FC75529B054C3C2900BBC68D /* LoadingPanel.nib */,
+				FC0DFD0007634AC60049E191 /* DonationPanel.nib */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				FC6C55100577E62900DD1CE6 /* AppIcon.icns */,
+				FCAC0D310607189700B74E7D /* Localizable.strings */,
+				FCEC799F0768556E008895C2 /* Help */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC528C0E0760958C00374589 /* TreeMapView.framework */,
+				FC570183070602110032DFE9 /* CocoaTechBase.framework */,
+				FC570184070602110032DFE9 /* CocoaTechFoundation.framework */,
+				FC570185070602110032DFE9 /* CocoaTechID3.framework */,
+				FC570186070602110032DFE9 /* CocoaTechStrings.framework */,
+				FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */,
+				FC5700F0070601AE0032DFE9 /* OmniBase.framework */,
+				FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */,
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1A6382073AB5F3007ED7C0 /* DrivesPanel */ = {
+			isa = PBXGroup;
+			children = (
+				FC84CA650748EF9300E252C8 /* DrivesPanelController.h */,
+				FC84CA660748EF9300E252C8 /* DrivesPanelController.m */,
+				FC15C812073F85EC0013F5B2 /* VolumeNameTransformer.h */,
+				FC15C813073F85EC0013F5B2 /* VolumeNameTransformer.m */,
+				FC2FB2BF0744E0C500D2B466 /* VolumeUsageTransformer.h */,
+				FC2FB2C00744E0C500D2B466 /* VolumeUsageTransformer.m */,
+			);
+			name = DrivesPanel;
+			sourceTree = "<group>";
+		};
+		FC26D53C07F48AC600301D86 /* SelectionList */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEA6E07FBED8C00581F63 /* SelectionListController.h */,
+				FC6DEA6F07FBED8C00581F63 /* SelectionListController.m */,
+				FC6DE9FD07FBE44A00581F63 /* FileKindsPopupController.h */,
+				FC6DE9FE07FBE44A00581F63 /* FileKindsPopupController.m */,
+				FC26D53F07F48B1300301D86 /* SelectionListTableController.h */,
+				FC26D54007F48B1300301D86 /* SelectionListTableController.m */,
+			);
+			name = SelectionList;
+			sourceTree = "<group>";
+		};
+		FC2788E207D7571C00EDCC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2788E307D7571C00EDCC97 /* TreeMapView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC657550075F4D450056F438 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				FCA4CFDC075DC6E10064125F /* MainWindowToolbar.toolbar */,
+				FCA4D139075DE2490064125F /* ZoomOut.tiff */,
+				FCA4D13A075DE2490064125F /* ZoomIn.tiff */,
+				FCA4D148075DE2780064125F /* KindsStatisticDrawer.tiff */,
+				FCA4D603075E6D7E0064125F /* Inspector.tiff */,
+				FC657546075F4D2E0056F438 /* Preferences.tiff */,
+				FC528C230760962100374589 /* MoveToTrash.png */,
+				FC6575AE075F5F240056F438 /* RevealInFinder.png */,
+				FC657584075F58C90056F438 /* RefreshSelection.png */,
+				FC657585075F58C90056F438 /* RefreshAll.png */,
+				FC6575BE075F7A210056F438 /* ShowPackageContentsClosed.png */,
+				FC6575BF075F7A210056F438 /* ShowPackageContentsOpen.png */,
+			);
+			name = Toolbar;
+			sourceTree = "<group>";
+		};
+		FC68DD6E06073C6800A1B009 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B8FBA060B28CB0092839A /* known bugs.txt */,
+				FC1B8FB2060B28420092839A /* feature suggestions.txt */,
+				FC9E03B606087FB800F892E5 /* release notes.txt */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		FC69475107511D31000B2832 /* CocoaTechExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCA4C2B3075B67940064125F /* NTFSRefObject-AccessExtensions.h */,
+				FCA4C2B4075B67940064125F /* NTFSRefObject-AccessExtensions.m */,
+				FC84DC98074D4B0800E252C8 /* NTDefaultDirectory-Utilities.h */,
+				FC84DC99074D4B0800E252C8 /* NTDefaultDirectory-Utilities.m */,
+				FC27C270080728D90073CDF9 /* NTFileDesc-Utilities.h */,
+				FC27C271080728D90073CDF9 /* NTFileDesc-Utilities.m */,
+				FC3FFAD7071074ED004BEC56 /* NTFileDesc-AccessExtensions.h */,
+				FC3FFAD8071074ED004BEC56 /* NTFileDesc-AccessExtensions.m */,
+			);
+			name = CocoaTechExtensions;
+			sourceTree = "<group>";
+		};
+		FC6ADCA907F99819006FE39B /* AppKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC79EEAB07FC3822000BEBFA /* NSTableViewWithContextMenu.h */,
+				FC79EEAC07FC3822000BEBFA /* NSTableViewWithContextMenu.m */,
+				FC6ADCC807F99934006FE39B /* NSOutlineView-ContextMenuExtension.h */,
+				FC6ADCC907F99934006FE39B /* NSOutlineView-ContextMenuExtension.m */,
+				FC26D09507F4326E00301D86 /* GenericArrayController.m */,
+				FC26D09607F4326E00301D86 /* GenericArrayController.h */,
+				FC75526E054C3BFF00BBC68D /* ImageAndTextCell.h */,
+				FC75526D054C3BFF00BBC68D /* ImageAndTextCell.m */,
+			);
+			name = "AppKit Extension";
+			sourceTree = "<group>";
+		};
+		FC6E8D840758EE4600500E6F /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				FC37D69E0759096600209C78 /* Preferences.strings */,
+				FC37D66A0759084600209C78 /* TreeMapPreferences.tiff */,
+				FC6E8DCE0758F1EA00500E6F /* GeneralPreferences.tiff */,
+				FCE5D6570806A2CC00BDB57A /* FinderCMPreferences.tiff */,
+				FC3112D70805853200075F08 /* FinderCMPreferencesPage.nib */,
+				FC6E8D9F0758EF0300500E6F /* GeneralPreferencesPage.nib */,
+				FC37D62B075904E200209C78 /* TreeMapPreferencesPage.nib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		FC84D044074A3E0700E252C8 /* InfoPanel */ = {
+			isa = PBXGroup;
+			children = (
+				FC0DEA0B07625B230049E191 /* DIXFileInfoView.h */,
+				FC0DEA0C07625B230049E191 /* DIXFileInfoView.m */,
+				FC84D047074A3E2200E252C8 /* InfoPanelController.h */,
+				FC84D048074A3E2200E252C8 /* InfoPanelController.m */,
+			);
+			name = InfoPanel;
+			sourceTree = "<group>";
+		};
+		FC9F6B6C0754948000951B41 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				FC9F6B520754947B00951B41 /* Preferences.h */,
+				FC9F6C520754B21800951B41 /* Preferences.m */,
+				FC37D88D075A561700209C78 /* PrefsPanelController.h */,
+				FC37D88E075A561700209C78 /* PrefsPanelController.m */,
+				FC37DAD9075B407B00209C78 /* PrefsPageBase.h */,
+				FC37DADA075B407B00209C78 /* PrefsPageBase.m */,
+				FC37D638075905CA00209C78 /* TreeMapPrefPage.h */,
+				FC37D639075905CA00209C78 /* TreeMapPrefPage.m */,
+				FC6E8D800758EE3F00500E6F /* GeneralPrefPage.h */,
+				FC6E8D810758EE3F00500E6F /* GeneralPrefPage.m */,
+				FC3112E00805857B00075F08 /* FinderCMPrefPage.h */,
+				FC3112E10805857B00075F08 /* FinderCMPrefPage.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		FCA4D3FC075E152D0064125F /* OmniAppKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCA4D3FD075E15630064125F /* OAToolbarWindowControllerEx.h */,
+				FCA4D3FE075E15630064125F /* OAToolbarWindowControllerEx.m */,
+			);
+			name = OmniAppKitExtensions;
+			sourceTree = "<group>";
+		};
+		FCBEF4CA054C3EC5007ABD71 /* FilesOutlineView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC755276054C3BFF00BBC68D /* FilesOutlineViewController.h */,
+				FC755275054C3BFF00BBC68D /* FilesOutlineViewController.m */,
+			);
+			name = "FilesOutlineView Classes";
+			sourceTree = "<group>";
+		};
+		FCBEF4D1054C3F14007ABD71 /* FileKindsTableView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC755277054C3BFF00BBC68D /* FileKindsTableController.m */,
+				FC755278054C3BFF00BBC68D /* FileKindsTableController.h */,
+			);
+			name = "FileKindsTableView Classes";
+			sourceTree = "<group>";
+		};
+		FCBEF4D4054C3F30007ABD71 /* TreeMapView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC75525D054C3BFF00BBC68D /* TreeMapViewController.m */,
+				FC75525E054C3BFF00BBC68D /* TreeMapViewController.h */,
+			);
+			name = "TreeMapView Classes";
+			sourceTree = "<group>";
+		};
+		FCBEF4D7054C3F4C007ABD71 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FCB62FED070CAE5F00BA5FD4 /* Timing.c */,
+				FCB62FEE070CAE5F00BA5FD4 /* Timing.h */,
+				FC755265054C3BFF00BBC68D /* OffscreenGWorld.m */,
+				FC755266054C3BFF00BBC68D /* OffscreenGWorld.h */,
+				FCC564760615EA5E00C5884D /* FileSizeFormatter.h */,
+				FCC564770615EA5E00C5884D /* FileSizeFormatter.m */,
+				FC26D1F107F4559B00301D86 /* FileSizeTransformer.h */,
+				FC26D1F207F4559B00301D86 /* FileSizeTransformer.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D15AC280486D014006FF6A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC290486D014006FF6A4 /* Disk Inventory X_Prefix.pch in Headers */,
+				FC75527A054C3BFF00BBC68D /* TreeMapViewController.h in Headers */,
+				FC755282054C3BFF00BBC68D /* OffscreenGWorld.h in Headers */,
+				FC755286054C3BFF00BBC68D /* MyDocumentController.h in Headers */,
+				FC755288054C3BFF00BBC68D /* MainWindowController.h in Headers */,
+				FC75528A054C3BFF00BBC68D /* ImageAndTextCell.h in Headers */,
+				FC75528C054C3BFF00BBC68D /* FSItem.h in Headers */,
+				FC75528E054C3BFF00BBC68D /* FileTypeColors.h in Headers */,
+				FC755290054C3BFF00BBC68D /* FileSystemDoc.h in Headers */,
+				FC755292054C3BFF00BBC68D /* FilesOutlineViewController.h in Headers */,
+				FC755294054C3BFF00BBC68D /* FileKindsTableController.h in Headers */,
+				FCC564780615EA5E00C5884D /* FileSizeFormatter.h in Headers */,
+				FCB62FF0070CAE5F00BA5FD4 /* Timing.h in Headers */,
+				FC3FFAD9071074ED004BEC56 /* NTFileDesc-AccessExtensions.h in Headers */,
+				FC15C814073F85EC0013F5B2 /* VolumeNameTransformer.h in Headers */,
+				FC2FB2C10744E0C500D2B466 /* VolumeUsageTransformer.h in Headers */,
+				FC84CA670748EF9300E252C8 /* DrivesPanelController.h in Headers */,
+				FC84D049074A3E2200E252C8 /* InfoPanelController.h in Headers */,
+				FC84DC9A074D4B0800E252C8 /* NTDefaultDirectory-Utilities.h in Headers */,
+				FC84DD66074D61EF00E252C8 /* FSItem-Utilities.h in Headers */,
+				FC9F6B530754947B00951B41 /* Preferences.h in Headers */,
+				FC6E8D820758EE3F00500E6F /* GeneralPrefPage.h in Headers */,
+				FC37D63A075905CA00209C78 /* TreeMapPrefPage.h in Headers */,
+				FC37D88F075A561700209C78 /* PrefsPanelController.h in Headers */,
+				FC37DADB075B407B00209C78 /* PrefsPageBase.h in Headers */,
+				FCA4C2B5075B67940064125F /* NTFSRefObject-AccessExtensions.h in Headers */,
+				FCA4D3FF075E15630064125F /* OAToolbarWindowControllerEx.h in Headers */,
+				FC528AC7076079B500374589 /* LoadingPanelController.h in Headers */,
+				FC0DEA0D07625B230049E191 /* DIXFileInfoView.h in Headers */,
+				FC26D09807F4326E00301D86 /* GenericArrayController.h in Headers */,
+				FC26D1F307F4559B00301D86 /* FileSizeTransformer.h in Headers */,
+				FC26D54107F48B1300301D86 /* SelectionListTableController.h in Headers */,
+				FC6ADCCA07F99934006FE39B /* NSOutlineView-ContextMenuExtension.h in Headers */,
+				FC6DE9FF07FBE44A00581F63 /* FileKindsPopupController.h in Headers */,
+				FC6DEA7007FBED8C00581F63 /* SelectionListController.h in Headers */,
+				FC79EEAD07FC3822000BEBFA /* NSTableViewWithContextMenu.h in Headers */,
+				FC79F14A07FD45A4000BEBFA /* FSItemIndex.h in Headers */,
+				FC6D4B230804040600E21F6D /* DIXFinderCMInstaller.h in Headers */,
+				FC3112E20805857B00075F08 /* FinderCMPrefPage.h in Headers */,
+				FC27C272080728D90073CDF9 /* NTFileDesc-Utilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Disk Inventory X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA73FF2085C426A00C8726E /* Build configuration list for PBXNativeTarget "Disk Inventory X" */;
+			buildPhases = (
+				8D15AC280486D014006FF6A4 /* Headers */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				FC57018B070602290032DFE9 /* CopyFiles */,
+				FC6185750760E98C00C27B42 /* ShellScript */,
+				FC6D4BA2080413BE00E21F6D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
+					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
+					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
+					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Disk Inventory X";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			dependencies = (
+			);
+			name = "Disk Inventory X";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Disk Accountant";
+			productReference = FC04DC8207D48B8A00740A58 /* Disk Inventory X.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FCA73FF6085C426A00C8726E /* Build configuration list for PBXProject "Disk Inventory X" */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+			};
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA /* Development */,
+				4A9504D1FFE6A4CB11CA0CBA /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Disk Inventory */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FC2788E207D7571C00EDCC97 /* Products */;
+					ProjectRef = FC2788E007D7571C00EDCC97 /* TreeMapView.xcode */;
+				},
+			);
+			targets = (
+				8D15AC270486D014006FF6A4 /* Disk Inventory X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FC2788E307D7571C00EDCC97 /* TreeMapView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TreeMapView.framework;
+			remoteRef = FC2788E607D7573900EDCC97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				FC75529D054C3C2900BBC68D /* TreeMap.nib in Resources */,
+				FC75529E054C3C2900BBC68D /* MainMenu.nib in Resources */,
+				FC75529F054C3C2900BBC68D /* LoadingPanel.nib in Resources */,
+				FC6C55110577E62900DD1CE6 /* AppIcon.icns in Resources */,
+				FCAC0D330607189700B74E7D /* Localizable.strings in Resources */,
+				FC9E03B706087FB800F892E5 /* release notes.txt in Resources */,
+				FC1B8FB3060B28420092839A /* feature suggestions.txt in Resources */,
+				FC1B8FBB060B28CB0092839A /* known bugs.txt in Resources */,
+				FC55B556073C281600B59D00 /* VolumesPanel.nib in Resources */,
+				FC84D061074A3F4900E252C8 /* InfoPanel.nib in Resources */,
+				FC6E8DA10758EF0300500E6F /* GeneralPreferencesPage.nib in Resources */,
+				FC6E8DCF0758F1EA00500E6F /* GeneralPreferences.tiff in Resources */,
+				FC37D62D075904E200209C78 /* TreeMapPreferencesPage.nib in Resources */,
+				FC37D66B0759084600209C78 /* TreeMapPreferences.tiff in Resources */,
+				FC37D69F0759096600209C78 /* Preferences.strings in Resources */,
+				FCA4CFDD075DC6E10064125F /* MainWindowToolbar.toolbar in Resources */,
+				FCA4D13B075DE2490064125F /* ZoomOut.tiff in Resources */,
+				FCA4D13C075DE24A0064125F /* ZoomIn.tiff in Resources */,
+				FCA4D149075DE2780064125F /* KindsStatisticDrawer.tiff in Resources */,
+				FCA4D604075E6D7E0064125F /* Inspector.tiff in Resources */,
+				FC657547075F4D2E0056F438 /* Preferences.tiff in Resources */,
+				FC657586075F58C90056F438 /* RefreshSelection.png in Resources */,
+				FC657587075F58C90056F438 /* RefreshAll.png in Resources */,
+				FC6575AF075F5F240056F438 /* RevealInFinder.png in Resources */,
+				FC6575C0075F7A210056F438 /* ShowPackageContentsClosed.png in Resources */,
+				FC6575C1075F7A210056F438 /* ShowPackageContentsOpen.png in Resources */,
+				FC528C240760962100374589 /* MoveToTrash.png in Resources */,
+				FC0DFD0207634AC60049E191 /* DonationPanel.nib in Resources */,
+				FCEC79A90768556E008895C2 /* Help in Resources */,
+				FC3112D90805853200075F08 /* FinderCMPreferencesPage.nib in Resources */,
+				FCE5D6580806A2CC00BDB57A /* FinderCMPreferences.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC6185750760E98C00C27B42 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $BUILD_STYLE = \"Release\" ]\nthen\nSEARCH_DIR=\"${TARGET_BUILD_DIR}\"\n\necho \"Deleting PrivateHeaders (files, dirs and links) from \\\"${SEARCH_DIR}/${FRAMEWORKS_FOLDER_PATH}\\\"...\"\n\nfind \"$SEARCH_DIR/$FRAMEWORKS_FOLDER_PATH\" -name Headers -exec rm -rf {} \\;\nfind \"$SEARCH_DIR/$FRAMEWORKS_FOLDER_PATH\" -name PrivateHeaders -exec rm -rf {} \\;\n\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				FC755279054C3BFF00BBC68D /* TreeMapViewController.m in Sources */,
+				FC755281054C3BFF00BBC68D /* OffscreenGWorld.m in Sources */,
+				FC755285054C3BFF00BBC68D /* MyDocumentController.m in Sources */,
+				FC755287054C3BFF00BBC68D /* MainWindowController.m in Sources */,
+				FC755289054C3BFF00BBC68D /* ImageAndTextCell.m in Sources */,
+				FC75528B054C3BFF00BBC68D /* FSItem.m in Sources */,
+				FC75528D054C3BFF00BBC68D /* FileTypeColors.m in Sources */,
+				FC75528F054C3BFF00BBC68D /* FileSystemDoc.m in Sources */,
+				FC755291054C3BFF00BBC68D /* FilesOutlineViewController.m in Sources */,
+				FC755293054C3BFF00BBC68D /* FileKindsTableController.m in Sources */,
+				FCC564790615EA5E00C5884D /* FileSizeFormatter.m in Sources */,
+				FCB62FEF070CAE5F00BA5FD4 /* Timing.c in Sources */,
+				FC3FFADA071074ED004BEC56 /* NTFileDesc-AccessExtensions.m in Sources */,
+				FC15C815073F85EC0013F5B2 /* VolumeNameTransformer.m in Sources */,
+				FC2FB2C20744E0C500D2B466 /* VolumeUsageTransformer.m in Sources */,
+				FC84CA680748EF9300E252C8 /* DrivesPanelController.m in Sources */,
+				FC84D04A074A3E2200E252C8 /* InfoPanelController.m in Sources */,
+				FC84DC9B074D4B0800E252C8 /* NTDefaultDirectory-Utilities.m in Sources */,
+				FC84DD67074D61EF00E252C8 /* FSItem-Utilities.m in Sources */,
+				FC9F6C530754B21800951B41 /* Preferences.m in Sources */,
+				FC6E8D830758EE3F00500E6F /* GeneralPrefPage.m in Sources */,
+				FC37D63B075905CA00209C78 /* TreeMapPrefPage.m in Sources */,
+				FC37D890075A561700209C78 /* PrefsPanelController.m in Sources */,
+				FC37DADC075B407B00209C78 /* PrefsPageBase.m in Sources */,
+				FCA4C2B6075B67940064125F /* NTFSRefObject-AccessExtensions.m in Sources */,
+				FCA4D400075E15630064125F /* OAToolbarWindowControllerEx.m in Sources */,
+				FC528AC8076079B500374589 /* LoadingPanelController.m in Sources */,
+				FC0DEA0E07625B230049E191 /* DIXFileInfoView.m in Sources */,
+				FC26D09707F4326E00301D86 /* GenericArrayController.m in Sources */,
+				FC26D1F407F4559B00301D86 /* FileSizeTransformer.m in Sources */,
+				FC26D54207F48B1300301D86 /* SelectionListTableController.m in Sources */,
+				FC6ADCCB07F99934006FE39B /* NSOutlineView-ContextMenuExtension.m in Sources */,
+				FC6DEA0007FBE44A00581F63 /* FileKindsPopupController.m in Sources */,
+				FC6DEA7107FBED8C00581F63 /* SelectionListController.m in Sources */,
+				FC79EEAE07FC3822000BEBFA /* NSTableViewWithContextMenu.m in Sources */,
+				FC79F14B07FD45A4000BEBFA /* FSItemIndex.m in Sources */,
+				FC6D4B240804040600E21F6D /* DIXFinderCMInstaller.m in Sources */,
+				FC3112E30805857B00075F08 /* FinderCMPrefPage.m in Sources */,
+				FC27C273080728D90073CDF9 /* NTFileDesc-Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FC0DFD0007634AC60049E191 /* DonationPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0DFD0107634AC60049E191 /* English */,
+			);
+			name = DonationPanel.nib;
+			sourceTree = "<group>";
+		};
+		FC3112D70805853200075F08 /* FinderCMPreferencesPage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3112D80805853200075F08 /* English */,
+			);
+			name = FinderCMPreferencesPage.nib;
+			sourceTree = "<group>";
+		};
+		FC37D62B075904E200209C78 /* TreeMapPreferencesPage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC37D62C075904E200209C78 /* English */,
+			);
+			name = TreeMapPreferencesPage.nib;
+			sourceTree = "<group>";
+		};
+		FC37D69E0759096600209C78 /* Preferences.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC37D69C0759095300209C78 /* English */,
+			);
+			name = Preferences.strings;
+			sourceTree = "<group>";
+		};
+		FC55B554073C281600B59D00 /* VolumesPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC55B555073C281600B59D00 /* English */,
+			);
+			name = VolumesPanel.nib;
+			sourceTree = "<group>";
+		};
+		FC6E8D9F0758EF0300500E6F /* GeneralPreferencesPage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6E8DA00758EF0300500E6F /* English */,
+			);
+			name = GeneralPreferencesPage.nib;
+			sourceTree = "<group>";
+		};
+		FC755297054C3C2900BBC68D /* TreeMap.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC755298054C3C2900BBC68D /* English */,
+			);
+			name = TreeMap.nib;
+			sourceTree = "<group>";
+		};
+		FC755299054C3C2900BBC68D /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC75529A054C3C2900BBC68D /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		FC75529B054C3C2900BBC68D /* LoadingPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC75529C054C3C2900BBC68D /* English */,
+			);
+			name = LoadingPanel.nib;
+			sourceTree = "<group>";
+		};
+		FC84D05F074A3F4900E252C8 /* InfoPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC84D060074A3F4900E252C8 /* English */,
+			);
+			name = InfoPanel.nib;
+			sourceTree = "<group>";
+		};
+		FCAC0D310607189700B74E7D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAC0D320607189700B74E7D /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FCEC799F0768556E008895C2 /* Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEC79A00768556E008895C2 /* English */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA73FF3085C426A00C8726E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
+					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
+					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
+					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
+					"$(SRCROOT)/../../../../TreeMapView/vdev/make/build/Debug",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Disk Inventory X";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		FCA73FF4085C426A00C8726E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
+					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
+					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
+					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
+					"$(SRCROOT)/../../../../TreeMapView/vdev/make/build/Debug",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "NS_BLOCK_ASSERTIONS=1";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Disk Inventory X";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		FCA73FF5085C426A00C8726E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
+					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
+					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
+					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
+					"$(SRCROOT)/../../../../TreeMapView/vdev/make/build/Debug",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Disk Inventory X";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		FCA73FF7085C426A00C8726E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				SYMROOT = ./../build/debug;
+			};
+			name = Debug;
+		};
+		FCA73FF8085C426A00C8726E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				SYMROOT = ./../build/release;
+			};
+			name = Release;
+		};
+		FCA73FF9085C426A00C8726E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA73FF2085C426A00C8726E /* Build configuration list for PBXNativeTarget "Disk Inventory X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA73FF3085C426A00C8726E /* Debug */,
+				FCA73FF4085C426A00C8726E /* Release */,
+				FCA73FF5085C426A00C8726E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		FCA73FF6085C426A00C8726E /* Build configuration list for PBXProject "Disk Inventory X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA73FF7085C426A00C8726E /* Debug */,
+				FCA73FF8085C426A00C8726E /* Release */,
+				FCA73FF9085C426A00C8726E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

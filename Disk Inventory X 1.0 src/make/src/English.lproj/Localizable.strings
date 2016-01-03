@@ -1,0 +1,65 @@
+/*menu commands*/
+"Split Horizontally" = "Split Horizontally";
+"Split Vertically" = "Split Vertically";
+
+"Show Package Contents" = "Show Package Contents";
+"Hide Package Contents" = "Hide Package Contents";
+
+"Show Free Space" = "Show Free Space";
+"Hide Free Space" = "Hide Free Space";
+
+"Show Other Space" = "Show Other Space";
+"Hide Other Space" = "Hide Other Space";
+
+"Show Physical File Size" = "Show Physical File Size";
+"Show Logical File Size" = "Show Logical File Size";
+
+"Ignore Creator Code" = "Ignore Creator Code";
+"Respect Creator Code" = "Respect Creator Code";
+
+"Show File Kind Statistics" = "Show File Kind Statistics";
+"Hide File Kind Statistics" = "Hide File Kind Statistics";
+
+"Show Selection List" = "Show Selection List";
+"Hide Selection List" = "Hide Selection List";
+
+"Show Information" = "Show Information";
+"Hide Information" = "Hide Information";
+
+/*progress information while calculating file kind statistics*/
+"Classifying Files" = "Classifying Files...";
+
+/*error message if an error occurred during the scanning of a folder's content*/
+"The folder's content could not be loaded." = "The folder's content could not be loaded.";
+
+/*exception text if volume has been ejected during folders/files enumeration*/
+"The volume has been ejected during loading of folder centents." = "The volume has been ejected during loading of folder centents.";
+
+/*names for free and other space items*/
+"free space on drive" = "free space on drive";
+"space occupied by other files and folders" = "space occupied by other files and folders";
+
+/*some strings used in the drives panel to show values about a drive*/
+"Capacity" = "Capacity";
+"Used" = "Used";
+"Free" = "Free";
+
+/*the "move to trash" command failed (the selected file/folder name will be placed in front of this text)*/
+"\"%@\" cannot be moved to the trash by Disk Inventory X." = "\"%@\" cannot be moved to the trash by Disk Inventory X.";
+"Maybe you do not have sufficient access privileges." = "Maybe you do not have sufficient access privileges.";
+
+/*refreshing failed because the loaded folder doesn't exist anymore*/
+"\"%@\" does not exist any more." = "\"%@\" does not exist any more.";
+"The folder will remain visible in Disk Inventory X, but the files cannot be accessed (e.g. shown in the Finder)." = "The folder will remain visible in Disk Inventory X, but the files cannot be accessed (e.g. shown in the Finder).";
+
+/*"all files" item in kinds popup button*/
+"(all kinds)" = "(all kinds)";
+
+/*strings for the Finder CM preference page*/
+"The Finder plugin is not installed. Click 'Install' to install it on your computer." = "The Finder plugin is not installed. Click 'Install' to install it on your computer.";
+"A newer version (%@) is installed." = "A newer version (%@) is installed.";
+"An older version (%@) is installed. It is recommended to update." = "An older version (%@) is installed. It is recommended to update.";
+"The current version (%@) is installed." = "The current version (%@) is installed.";
+"Reinstall" = "Reinstall";
+"Update" = "Update";
+"Install" = "Install";

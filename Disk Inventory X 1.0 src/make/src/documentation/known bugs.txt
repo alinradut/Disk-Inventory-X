@@ -1,0 +1,11 @@
+- directories which can not be listed (e.g. due to no permissions) are shown with size 0
+- the data in any column is chopped off without any indication (names, sizes)
+((turning the name "This is a file" into "This...file"
+  instead of "This is a", for example)
+
+- put the focus ring on the graphic area (hit <tab> key
+  until the graphic area is highlighted), use the
+  vertical frame/view resizing bar to make the graphic
+  area larger/wider, then smaller/thinner, and observe.
+  The blue focus/highlight is not erased after resizing,
+  and leaves graphic artefacts on the window.

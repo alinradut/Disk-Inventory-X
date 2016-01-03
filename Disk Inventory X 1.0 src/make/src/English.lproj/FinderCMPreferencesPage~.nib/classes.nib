@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {install = id; remove = id; revealInFinder = id; }; 
+            CLASS = FinderCMPrefPage; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_domainMatrix" = NSMatrix; 
+                "_extensionPathTextField" = NSTextField; 
+                "_installButton" = NSButton; 
+                "_noteTextField" = NSTextField; 
+                "_removeButton" = NSButton; 
+                "_revealInFinderButton" = NSButton; 
+                "_statusInfoTextField" = NSTextField; 
+            }; 
+            SUPERCLASS = PrefsPageBase; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = GeneralPrefPage; LANGUAGE = ObjC; SUPERCLASS = OAPreferenceClient; }, 
+        {
+            ACTIONS = {restoreDefaults = id; setValueForSender = id; }; 
+            CLASS = OAPreferenceClient; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controlBox = NSView; initialFirstResponder = NSView; lastKeyView = NSView; }; 
+            SUPERCLASS = OFObject; 
+        }, 
+        {CLASS = OBObject; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OFObject; LANGUAGE = ObjC; SUPERCLASS = OBObject; }, 
+        {CLASS = PrefsPageBase; LANGUAGE = ObjC; SUPERCLASS = OAPreferenceClient; }
+    ); 
+    IBVersion = 1; 
+}

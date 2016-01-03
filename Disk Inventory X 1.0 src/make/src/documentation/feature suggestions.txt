@@ -1,0 +1,14 @@
+- show total number of all files
+- in addition to the "move to trash" command add the ability to move files to a specific folder
+- print report (simple textual report?)
+- the 'Open Folder' item in the File menu might be more correctly
+  named 'Choose Location' or 'Select Location'.  This might
+  necessitate renaming the 'Open Recent' item as well - not
+  sure what affect this might have on its behavior, if you are
+  letting the system provide the functionality for this item.
+- apple-delete as shortcut for move-to-trash.
+- nicer icon: http://www.macmerc.com/sections.php?op=viewarticle&artid=70&page=1
+
+- interesting approaches representing directories:
+http://www.methylblue.com/filelight/
+http://www.steffengerlach.de/freeware/
