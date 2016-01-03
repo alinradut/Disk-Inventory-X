@@ -74,7 +74,6 @@
 		FC6C55110577E62900DD1CE6 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FC6C55100577E62900DD1CE6 /* AppIcon.icns */; };
 		FC6D4B230804040600E21F6D /* DIXFinderCMInstaller.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6D4B210804040600E21F6D /* DIXFinderCMInstaller.h */; };
 		FC6D4B240804040600E21F6D /* DIXFinderCMInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6D4B220804040600E21F6D /* DIXFinderCMInstaller.m */; };
-		FC6D4C0D080416BC00E21F6D /* Disk Inventory X Finder CM.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC6D4C00080414C200E21F6D /* Disk Inventory X Finder CM.plugin */; };
 		FC6DE9FF07FBE44A00581F63 /* FileKindsPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6DE9FD07FBE44A00581F63 /* FileKindsPopupController.h */; };
 		FC6DEA0007FBE44A00581F63 /* FileKindsPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DE9FE07FBE44A00581F63 /* FileKindsPopupController.m */; };
 		FC6DEA7007FBED8C00581F63 /* SelectionListController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6DEA6E07FBED8C00581F63 /* SelectionListController.h */; };
@@ -140,37 +139,6 @@
 		FCEC79A90768556E008895C2 /* Help in Resources */ = {isa = PBXBuildFile; fileRef = FCEC799F0768556E008895C2 /* Help */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		4A9504D0FFE6A4CB11CA0CBA /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				OPTIMIZATION_CFLAGS = "-O0";
-				SYMROOT = ./../build/debug;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		4A9504D1FFE6A4CB11CA0CBA /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = "NS_BLOCK_ASSERTIONS=1";
-				SYMROOT = ./../build/release;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXContainerItemProxy section */
 		FC2788E607D7573900EDCC97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -205,7 +173,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				FC6D4C0D080416BC00E21F6D /* Disk Inventory X Finder CM.plugin in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,16 +222,16 @@
 		FC3FFAD8071074ED004BEC56 /* NTFileDesc-AccessExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NTFileDesc-AccessExtensions.m"; sourceTree = "<group>"; };
 		FC528AC5076079B500374589 /* LoadingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingPanelController.h; sourceTree = "<group>"; };
 		FC528AC6076079B500374589 /* LoadingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingPanelController.m; sourceTree = "<group>"; };
-		FC528C0E0760958C00374589 /* TreeMapView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TreeMapView.framework; path = ../../../../TreeMapView/vdev/make/build/Release/TreeMapView.framework; sourceTree = SOURCE_ROOT; };
+		FC528C0E0760958C00374589 /* TreeMapView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TreeMapView.framework; path = ../../../TreeMapView/TreeMapView.framework; sourceTree = SOURCE_ROOT; };
 		FC528C230760962100374589 /* MoveToTrash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoveToTrash.png; sourceTree = SOURCE_ROOT; };
 		FC55B555073C281600B59D00 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VolumesPanel.nib; sourceTree = "<group>"; };
-		FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniAppKit.framework; path = "../../../../OmniFrameworks 2004-07-16/build/release/OmniAppKit.framework"; sourceTree = SOURCE_ROOT; };
-		FC5700F0070601AE0032DFE9 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = "../../../../OmniFrameworks 2004-07-16/build/release/OmniBase.framework"; sourceTree = SOURCE_ROOT; };
-		FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = "../../../../OmniFrameworks 2004-07-16/build/release/OmniFoundation.framework"; sourceTree = SOURCE_ROOT; };
-		FC570183070602110032DFE9 /* CocoaTechBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechBase.framework; path = ../../../../CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechBase.framework; sourceTree = SOURCE_ROOT; };
-		FC570184070602110032DFE9 /* CocoaTechFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechFoundation.framework; path = /Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechFoundation.framework; sourceTree = "<absolute>"; };
-		FC570185070602110032DFE9 /* CocoaTechID3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechID3.framework; path = ../../../../CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechID3.framework; sourceTree = SOURCE_ROOT; };
-		FC570186070602110032DFE9 /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = ../../../../CocoaTechOpenSource3.2/Frameworks/build/release/CocoaTechStrings.framework; sourceTree = SOURCE_ROOT; };
+		FC5700EF070601AE0032DFE9 /* OmniAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniAppKit.framework; path = ../../../OmniFrameWorks/OmniAppKit.framework; sourceTree = SOURCE_ROOT; };
+		FC5700F0070601AE0032DFE9 /* OmniBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniBase.framework; path = ../../../OmniFrameWorks/OmniBase.framework; sourceTree = SOURCE_ROOT; };
+		FC5700F1070601AE0032DFE9 /* OmniFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OmniFoundation.framework; path = ../../../OmniFrameWorks/OmniFoundation.framework; sourceTree = SOURCE_ROOT; };
+		FC570183070602110032DFE9 /* CocoaTechBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechBase.framework; path = ../../../CocoaTech/CocoaTechBase.framework; sourceTree = SOURCE_ROOT; };
+		FC570184070602110032DFE9 /* CocoaTechFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechFoundation.framework; path = ../../../CocoaTech/CocoaTechFoundation.framework; sourceTree = SOURCE_ROOT; };
+		FC570185070602110032DFE9 /* CocoaTechID3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechID3.framework; path = ../../../CocoaTech/CocoaTechID3.framework; sourceTree = SOURCE_ROOT; };
+		FC570186070602110032DFE9 /* CocoaTechStrings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaTechStrings.framework; path = ../../../CocoaTech/CocoaTechStrings.framework; sourceTree = SOURCE_ROOT; };
 		FC657546075F4D2E0056F438 /* Preferences.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Preferences.tiff; sourceTree = "<group>"; };
 		FC657584075F58C90056F438 /* RefreshSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshSelection.png; sourceTree = "<group>"; };
 		FC657585075F58C90056F438 /* RefreshAll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RefreshAll.png; sourceTree = "<group>"; };
@@ -276,7 +243,6 @@
 		FC6C55100577E62900DD1CE6 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		FC6D4B210804040600E21F6D /* DIXFinderCMInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIXFinderCMInstaller.h; sourceTree = "<group>"; };
 		FC6D4B220804040600E21F6D /* DIXFinderCMInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIXFinderCMInstaller.m; sourceTree = "<group>"; };
-		FC6D4C00080414C200E21F6D /* Disk Inventory X Finder CM.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; name = "Disk Inventory X Finder CM.plugin"; path = "../../../../Disk Inventory X Finder CM/1.0/make/build/release/Disk Inventory X Finder CM.plugin"; sourceTree = SOURCE_ROOT; };
 		FC6DE9FD07FBE44A00581F63 /* FileKindsPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileKindsPopupController.h; sourceTree = "<group>"; };
 		FC6DE9FE07FBE44A00581F63 /* FileKindsPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileKindsPopupController.m; sourceTree = "<group>"; };
 		FC6DEA6E07FBED8C00581F63 /* SelectionListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionListController.h; sourceTree = "<group>"; };
@@ -408,7 +374,6 @@
 				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
 				19C28FB0FE9D524F11CA2CBB /* Products */,
 				FC68DD6E06073C6800A1B009 /* Documentation */,
-				FC6D4C00080414C200E21F6D /* Disk Inventory X Finder CM.plugin */,
 			);
 			name = "Disk Inventory";
 			sourceTree = "<group>";
@@ -740,36 +705,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
-					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
-					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
-					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
-				);
-				GCC_ENABLE_TRIGRAPHS = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Disk Inventory X_Prefix.pch";
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "Disk Inventory X";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
 			dependencies = (
 			);
 			name = "Disk Inventory X";
@@ -783,16 +718,15 @@
 /* Begin PBXProject section */
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = FCA73FF6085C426A00C8726E /* Build configuration list for PBXProject "Disk Inventory X" */;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
-				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+			attributes = {
 			};
-			buildStyles = (
-				4A9504D0FFE6A4CB11CA0CBA /* Development */,
-				4A9504D1FFE6A4CB11CA0CBA /* Deployment */,
-			);
+			buildConfigurationList = FCA73FF6085C426A00C8726E /* Build configuration list for PBXProject "Disk Inventory X" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Disk Inventory */;
 			projectDirPath = "";
 			projectReferences = (
@@ -801,6 +735,7 @@
 					ProjectRef = FC2788E007D7571C00EDCC97 /* TreeMapView.xcode */;
 				},
 			);
+			projectRoot = "";
 			targets = (
 				8D15AC270486D014006FF6A4 /* Disk Inventory X */,
 			);
@@ -1045,14 +980,13 @@
 		FCA73FF3085C426A00C8726E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
-					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
-					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
-					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
-					"$(SRCROOT)/../../../../TreeMapView/vdev/make/build/Debug",
+					"$(SRCROOT)/../../../OmniFrameworks",
+					"$(SRCROOT)/../../../CocoaTech",
+					"$(SRCROOT)/../../../TreeMapView",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -1070,7 +1004,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "";
+				OTHER_CFLAGS = "-DOMNI_FORCE_ASSERTIONS_OFF=1";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Disk Inventory X";
 				SECTORDER_FLAGS = "";
@@ -1087,13 +1021,12 @@
 		FCA73FF4085C426A00C8726E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
-					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
-					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
-					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
-					"$(SRCROOT)/../../../../TreeMapView/vdev/make/build/Debug",
+					"$(SRCROOT)/../../../OmniFrameworks",
+					"$(SRCROOT)/../../../CocoaTech",
+					"$(SRCROOT)/../../../TreeMapView",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_TRIGRAPHS = NO;
@@ -1108,7 +1041,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
+				OTHER_CFLAGS = "-DOMNI_FORCE_ASSERTIONS_OFF=1";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Disk Inventory X";
 				SECTORDER_FLAGS = "";
@@ -1125,12 +1058,11 @@
 		FCA73FF5085C426A00C8726E /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/Doom/Dev/OmniFrameworks 2004-07-16/build",
-					/Users/Doom/Dev/CocoaTechOpenSource3.2/Frameworks/build,
-					"/Users/Doom/Dev/Disk Inventory X/vdev/make/build",
-					/Users/Doom/Dev/TreeMapView/1.0/make/build/release,
-					"$(SRCROOT)/../../../../TreeMapView/vdev/make/build/Debug",
+					"$(SRCROOT)/../../../OmniFrameworks",
+					"$(SRCROOT)/../../../CocoaTech",
+					"$(SRCROOT)/../../../TreeMapView",
 				);
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -1143,7 +1075,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
+				OTHER_CFLAGS = "-DOMNI_FORCE_ASSERTIONS_OFF=1";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "Disk Inventory X";
 				SECTORDER_FLAGS = "";
@@ -1160,8 +1092,8 @@
 		FCA73FF7085C426A00C8726E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
-				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
 				SYMROOT = ./../build/debug;
 			};
 			name = Debug;
@@ -1169,8 +1101,8 @@
 		FCA73FF8085C426A00C8726E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
-				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
 				SYMROOT = ./../build/release;
 			};
 			name = Release;
@@ -1178,8 +1110,8 @@
 		FCA73FF9085C426A00C8726E /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
-				SDKROOT = /Developer/SDKs/MacOSX10.3.9.sdk;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
 			};
 			name = Default;
 		};

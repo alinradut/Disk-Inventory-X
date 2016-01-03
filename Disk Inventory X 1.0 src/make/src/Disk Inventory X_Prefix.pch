@@ -4,9 +4,16 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
-	#import <CocoaTechFoundation/CocoaTechFoundation.h>
-
-	#import <OmniBase/OmniBase.h>
+    #import <CocoaTechFoundation/NTFileDesc.h>
+    #import <CocoaTechFoundation/NTDefaultDirectory.h>
+    #import <CocoaTechFoundation/NTFSRefObject.h>
+    #import <CocoaTechFoundation/NTFileUtilities.h>
+    #import <CocoaTechFoundation/NTFileCopyManager.h>
+    #import <CocoaTechFoundation/NTInfoView.h>
+    #import <CocoaTechBase/NTTitledInfoPair.h>
+    #import <CocoaTechBase/NTSimpleAlert.h>
+    
+    #import <OmniBase/OmniBase.h>
 
 	//global variable which enables/disables logging
 	extern BOOL g_EnableLogging;
