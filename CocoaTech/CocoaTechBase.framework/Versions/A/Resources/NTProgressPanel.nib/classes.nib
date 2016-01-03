@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {stopAction = id; }; 
+            CLASS = NTProgressPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoText = id; progressBar = id; progressText = id; stopButton = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

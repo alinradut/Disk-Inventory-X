@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {OKAction = id; cancelAction = id; }; 
+            CLASS = PromptForStringPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = id; 
+                editFieldTitle = id; 
+                okButton = id; 
+                stringEditField = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

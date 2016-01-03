@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                encodingPopUpAction = id; 
+                ignoreHTMLCheckAction = id; 
+                ignoreRTFCheckAction = id; 
+            }; 
+            CLASS = NTEncodingAccessoryController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                accessoryView = id; 
+                encodingPopUpButton = id; 
+                encodingText = id; 
+                ignoreHTMLCheck = id; 
+                ignoreRTFCheck = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NTEncodingAccessoryView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = NTEncodingPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }
+    ); 
+    IBVersion = 1; 
+}

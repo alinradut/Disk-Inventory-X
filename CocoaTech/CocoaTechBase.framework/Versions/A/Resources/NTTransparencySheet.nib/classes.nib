@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {closeButtonAction = id; transparencySliderAction = id; }; 
+            CLASS = NTTransparencySheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {transparencySlider = id; window = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
