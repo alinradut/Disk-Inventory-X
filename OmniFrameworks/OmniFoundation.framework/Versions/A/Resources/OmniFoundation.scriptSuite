@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleEventCode</key>
+	<string>OFss</string>
+	<key>Commands</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>OFss</string>
+			<key>AppleEventCode</key>
+			<string>iadd</string>
+			<key>Arguments</key>
+			<dict>
+				<key>ToContainer</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>to  </string>
+					<key>Type</key>
+					<string>NSCoreSuite.AbstractObject</string>
+				</dict>
+			</dict>
+			<key>CommandClass</key>
+			<string>OFAddScriptCommand</string>
+		</dict>
+		<key>Remove</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>OFss</string>
+			<key>AppleEventCode</key>
+			<string>remv</string>
+			<key>Arguments</key>
+			<dict>
+				<key>FromContainer</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>from</string>
+					<key>Type</key>
+					<string>NSCoreSuite.AbstractObject</string>
+				</dict>
+			</dict>
+			<key>CommandClass</key>
+			<string>OFRemoveScriptCommand</string>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>OmniFoundation</string>
+	<key>UsedFeatures</key>
+	<array>
+		<string>UnnamedArguments</string>
+	</array>
+</dict>
+</plist>

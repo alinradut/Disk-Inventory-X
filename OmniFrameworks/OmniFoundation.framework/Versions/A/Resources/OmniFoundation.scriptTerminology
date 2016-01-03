@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Commands</key>
+	<dict>
+		<key>Add</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>ToContainer</key>
+				<dict>
+					<key>Description</key>
+					<string>The container to which to add the object.</string>
+					<key>Name</key>
+					<string>to</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Add the given object to the container.</string>
+			<key>Name</key>
+			<string>add</string>
+		</dict>
+		<key>Remove</key>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>FromContainer</key>
+				<dict>
+					<key>Description</key>
+					<string>The container from which to remove the object.</string>
+					<key>Name</key>
+					<string>from</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Remove the given object from the container.</string>
+			<key>Name</key>
+			<string>remove</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>OmniFoundation scripting support.</string>
+	<key>Name</key>
+	<string>OmniFoundation Scripting</string>
+</dict>
+</plist>
