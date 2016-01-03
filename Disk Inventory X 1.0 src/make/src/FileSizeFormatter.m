@@ -15,6 +15,7 @@
 {
 	self = [super init];
 	
+    [self setFormatterBehavior:NSNumberFormatterBehavior10_0];
 	[self setLocalizesFormat: YES];
 	[self setFormat: @"#,#0.0"];
 	
