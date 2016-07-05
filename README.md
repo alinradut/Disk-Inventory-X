@@ -31,3 +31,7 @@ OmniGroup has kindly made available their source repo, but it goes back only as 
 
 The Xcode project file is no longer compatible with contemporary versions of Xcode so I had to manually copy the header files, which was ok because they were only a handful.
 
+# Building
+
+Clone the repository and open the project file located in Disk Inventory X 1.0 src/make/src/Disk Inventory X.xcodeproj and then hit CMD+B.
+
