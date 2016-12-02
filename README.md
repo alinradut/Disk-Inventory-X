@@ -35,3 +35,14 @@ The Xcode project file is no longer compatible with contemporary versions of Xco
 
 Clone the repository and open the project file located in Disk Inventory X 1.0 src/make/src/Disk Inventory X.xcodeproj and then hit CMD+B.
 
+If you cannot hit CMD+B (the run button in the top left is greyed out as well)
+then do this:
+
+1. Open the above xcodeproj file
+2. Click the `Disk Inventory X` button in the top left
+3. Click `Edit Scheme`
+4. Click `Run` on the left bar of the popup
+5. Change the executable to `Disk Inventory X.app`
+
+See the images from this PR here for clearer instructions:
+https://github.com/clawoo/Disk-Inventory-X/pull/7
