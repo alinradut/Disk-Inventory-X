@@ -1,5 +1,5 @@
 
-## Attention! This application is no longer supported!
+# Attention! This application is no longer supported!
 
 This repository was just an exercise to revive the anceint code base of Disk Inventory X but the compatibility issues with newer OS X's make it unusable. There are many alternatives available, myself personally I use http://grandperspectiv.sourceforge.net/
 
