@@ -1,7 +1,7 @@
 
 # Attention! This application is no longer supported!
 
-This repository was just an exercise to revive the anceint code base of Disk Inventory X but the compatibility issues with newer OS X's make it unusable. There are many alternatives available, myself personally I use http://grandperspectiv.sourceforge.net/
+This repository was just an exercise to revive the ancient code base of Disk Inventory X but the compatibility issues with newer OSXs make it unusable. There are many alternatives available, myself personally I use http://grandperspectiv.sourceforge.net/
 
 # Disk-Inventory-X
 Fork of [Disk Inventory X](http://www.derlien.com/) with the correct volume size formatting and rebuilt external frameworks headers.
