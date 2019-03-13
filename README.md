@@ -1,5 +1,5 @@
 
-# ⚠️ ⚠️ ⚠️ Attention! This application is no longer supported! ⚠️ ⚠️ ⚠️
+# ⚠️ Attention! This application is no longer supported! ⚠️
 
 This repository was just an exercise to revive the ancient code base of Disk Inventory X but the compatibility issues with newer OSXs make it unusable. There are many alternatives available, myself personally I use http://grandperspectiv.sourceforge.net/
 
